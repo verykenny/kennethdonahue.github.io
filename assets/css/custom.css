@@ -1,3 +1,7 @@
 .project-description {
     padding: 8px;
 }
+
+.c-header.bold {
+    font-weight: bold;
+}
