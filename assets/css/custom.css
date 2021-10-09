@@ -5,3 +5,7 @@
 .c-header.bold {
     font-weight: bold;
 }
+
+.container {
+    max-width: 850px;
+}
