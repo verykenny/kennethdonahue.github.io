@@ -112,3 +112,7 @@
     margin-bottom: 0;
     text-align: left;
 }
+
+.modal-item a:hover {
+    color: #FFBC42;
+}
