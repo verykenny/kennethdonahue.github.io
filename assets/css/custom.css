@@ -48,6 +48,10 @@
     justify-content: space-around;
 }
 
+#skills .item:hover {
+    cursor: pointer;
+}
+
 #skills .item img {
     transition: all .7s;
 }
@@ -56,11 +60,9 @@
     transform: rotate(360deg)
 }
 
-.hidden {
-    display: none !important;
-}
-
 .skill-modal {
+    visibility: hidden;
+    opacity: 0;
     position: fixed;
     right: 0;
     top: 0;
@@ -72,6 +74,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: opacity .5s ease;
 }
 
 .modal-data {
