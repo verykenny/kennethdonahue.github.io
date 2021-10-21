@@ -9,3 +9,23 @@
 .container {
     max-width: 950px !important;
 }
+
+
+#portfolio .item,
+#skills .item {
+    transition: all .7s;
+
+}
+#portfolio .item:hover,
+#skills .item:hover {
+    box-shadow: -5px 5px 2px;
+    position: relative;
+    transform: translate(5px, 5px);
+}
+
+#title > a {
+    border-bottom: none !important;
+}
+#title > a:hover {
+    color: #7299C6
+}
