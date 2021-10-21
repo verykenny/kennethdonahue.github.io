@@ -11,7 +11,7 @@ for (let skill of skills) {
             e.stopPropagation();
             if (e.target === skillModal) {
                 skillModal.style.opacity = 0;
-                setTimeout(() => skillModal.style.visibility = 'hidden', 500)
+                setTimeout(() => skillModal.style.visibility = 'hidden', 300)
 
             }
         })
