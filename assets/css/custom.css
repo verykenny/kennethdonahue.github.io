@@ -14,12 +14,10 @@
 #portfolio .item,
 #skills .item {
     transition: all .7s;
-
 }
 #portfolio .item:hover,
 #skills .item:hover {
     box-shadow: -5px 5px 2px;
-    position: relative;
     transform: translate(5px, 5px);
 }
 
@@ -48,4 +46,12 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+}
+
+#skills .item img {
+    transition: all .7s;
+}
+
+#skills .item img:hover {
+    transform: rotate(360deg)
 }
