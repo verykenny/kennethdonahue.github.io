@@ -86,10 +86,11 @@
     max-width: 350px;
     box-shadow: -5px 5px 2px;
     margin-bottom: 40px;
+    border-radius: 3px;
+    background: #7299C6;
 }
 
 .modal-item header {
-    background: #26486C;
     margin: 0;
     padding: 1em;
     font-size: 0.8em;
