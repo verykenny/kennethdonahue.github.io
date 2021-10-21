@@ -2246,9 +2246,17 @@ input, select, textarea {
 				background-position: center center;
 			}
 
+			#main > section.one .container {
+                background-color: rgba(0, 0, 0, 0.582);
+                padding: 20px 0;
+                border-radius: 5px;
+                max-width: 90% !important;
+			}
+
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/tetons.jpeg");
+                padding: 5em 0;
 			}
 
 			#main > section.two {
