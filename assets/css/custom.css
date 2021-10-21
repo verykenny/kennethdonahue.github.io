@@ -10,10 +10,9 @@
     max-width: 950px !important;
 }
 
-
 #portfolio .item,
 #skills .item {
-    transition: all .7s;
+    transition: all 0.7s;
 }
 #portfolio .item:hover,
 #skills .item:hover {
@@ -25,7 +24,7 @@
     border-bottom: none !important;
 }
 #title > a:hover {
-    color: #7299C6
+    color: #7299c6;
 }
 
 .icon.fa-file-download {
@@ -53,11 +52,11 @@
 }
 
 #skills .item img {
-    transition: all .7s;
+    transition: all 0.7s;
 }
 
 #skills .item:hover img {
-    transform: rotate(360deg)
+    transform: rotate(360deg);
 }
 
 .skill-modal {
@@ -74,11 +73,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: opacity .5s ease;
+    transition: opacity 0.5s ease;
 }
 
 .modal-data {
-    background-color: #DDBBA6;
+    background-color: #ddbba6;
     height: fit-content;
     width: fit-content;
+}
+
+.modal-item {
+    box-shadow: -5px 5px 2px;
+    margin-bottom: 40px;
+}
+
+.modal-item header {
+    background: #26486C;
+    margin: 0;
+    padding: 1em;
+    font-size: 0.8em;
+    color: white;
+}
+
+.modal-item header h3 {
+    font-size: 1.2em;
+    color: white
+}
+
+.modal-item header p {
+    margin: 0;
 }
