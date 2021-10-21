@@ -29,3 +29,7 @@
 #title > a:hover {
     color: #7299C6
 }
+
+.icon.fa-file-download {
+    padding-right: 20px;
+}
