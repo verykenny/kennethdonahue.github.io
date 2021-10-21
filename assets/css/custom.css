@@ -52,6 +52,30 @@
     transition: all .7s;
 }
 
-#skills .item img:hover {
+#skills .item:hover img {
     transform: rotate(360deg)
+}
+
+.hidden {
+    display: none;
+}
+
+.skill-modal {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    padding-left: 375px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-data {
+    background-color: #DDBBA6;
+    height: fit-content;
+    width: fit-content;
 }

@@ -2299,6 +2299,10 @@ input, select, textarea {
 				margin-left: 300px;
 			}
 
+            .skill-modal {
+                padding-left: 300px !important;
+            }
+
 	}
 
 /* Normal */
@@ -2381,6 +2385,10 @@ input, select, textarea {
 			#main {
 				margin-left: 20%;
 			}
+
+            .skill-modal {
+                padding-left: 20% !important;
+            }
 
 	}
 
@@ -2581,6 +2589,9 @@ input, select, textarea {
 					padding: 4em 0;
 				}
 
+            .skill-modal {
+                padding-left: 0 !important;
+            }
 	}
 
 /* Mobile */
