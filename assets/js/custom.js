@@ -71,20 +71,9 @@ for (let site of sites) {
 
 })(jQuery);
 
-$(window).scroll(function (event) {
-
-    $(".module").each(function (i, el) {
-        var el = $(el);
-        if (el.visible(true)) {
-            el.addClass("come-in");
-        }
-    });
-
-});
-
 
 var win = $(window);
-var allMods = $(".item");
+var allMods = $(".cols");
 
 // Already visible modules
 allMods.each(function (i, el) {

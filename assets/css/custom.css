@@ -132,8 +132,10 @@
     transform: translateY(250px);
     animation: come-in 1.5s ease forwards;
 }
+
+
 .come-in:nth-child(odd) {
-    animation-duration: 1s; /* So they look staggered */
+    animation-duration: 1s;
 }
 
 @keyframes come-in {
