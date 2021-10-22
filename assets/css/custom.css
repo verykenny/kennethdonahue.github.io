@@ -51,9 +51,9 @@
     cursor: pointer;
 }
 
-#skills .item:hover {
+/* #skills .item:hover {
     cursor: pointer;
-}
+} */
 
 #skills .item img {
     transition: all 0.7s;
