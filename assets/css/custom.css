@@ -125,5 +125,23 @@
 }
 
 .modal-item a:hover {
-    color: #FFBC42;
+    color: #ffbc42;
+}
+
+
+
+
+
+.come-in {
+    transform: translateY(150px);
+    animation: come-in 1.5s ease forwards;
+}
+.come-in:nth-child(odd) {
+    animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes come-in {
+    to {
+        transform: translateY(0);
+    }
 }
