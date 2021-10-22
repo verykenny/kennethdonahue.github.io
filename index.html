@@ -147,7 +147,7 @@
                                     <h3>Features:</h3>
                                     <ul>
                                         <li>Single-page application with a simple splash page for user authorization.</li>
-                                        <li>Smooth, draggable UI components made in React that monitor and track MouseEvents, manipulate absolute positioning in Styled Components, and store updated position data in a PostgreSQL database.</li>
+                                        <li>Draggable UI components that monitor and track MouseEvents, manipulate absolute positioning in Styled Components, and store updated position data in a PostgreSQL database.</li>
                                         <li>Toggle-able editing system using Styled Components that mimic target elements. Users can update information without being taken to other pages or forms.</li>
                                     </ul>
                                 </header>
@@ -178,9 +178,8 @@
                                     <p><a href="https://pseudogram2021.herokuapp.com/">Check out Pseudogram!</a></p>
                                     <h3>Features:</h3>
                                     <ul>
-                                        <li>Streamlined Redux store state by nesting user image information under the user with eager loading, enabling simpler manipulation of the user image likes and comments during CRUD related actions.</li>
-                                        <li>Used AWS S3 to build a reusable React image upload modal using a custom context provider allowing for easy implementation on any authorized front-end route while also reducing server load.</li>
-                                        <li>Constructed a reusable component to toggle like/unlike status requiring only one prop to dispatch the correct Redux thunk action creator depending on the current Redux store state, facilitating easy implementation into other components on any front-end route or modal tied to an image.</li>
+                                        <li>AWS S3 utilized in a reusable React image upload modal allowing for easy implementation during development on any authorized front-end route while also reducing server load.</li>
+                                        <li>Like/unlike status can be toggled using a reusable modal that requires only one prop to dispatch the correct Redux thunk action creator depending on the current Redux store state.</li>
                                     </ul>
                                 </header>
                             </div>
@@ -211,9 +210,8 @@
                                     <p><a href="https://gravy-n-curds.herokuapp.com/">Check out gravyNcurds!</a></p>
                                     <h3>Features:</h3>
                                     <ul>
-                                        <li>Expanded user control by tying a user’s check-ins to their account, allowing users to easily retrieve, edit, delete check-ins as needed.</li>
-                                        <li>Restructured the login and signup forms in React with dedicated space for validation error messages using the Express Validator library, allowing users to instantly identify the field with the error and avoid resizing elements as a result of validation errors.</li>
-                                        <li>Created a React component to dynamically update the timestamp display on each check-in with the most pertinent time unit to display, calculated based on the total time since the check-in was created.</li>
+                                        <li>Login and signup forms were restructured with dedicated space for validation error messages from the Express Validator library, visually identifying the field causing the error and avoiding resizing elements to display the applicable message.</li>
+                                        <li>Javascript conditionals dynamically update the timestamp display on each check-in with the most pertinent time unit to display, calculated based on the total time since the check-in was created.</li>
                                     </ul>
                                 </header>
                             </div>
@@ -240,7 +238,11 @@
                                     <h2>GoodGames</h2>
                                     <p>Users can view a library of video games and organize a custom selection of games into shelves. Users can also view reviews of each game as well as publish their own. This project is inspired by Goodreads, a website where individuals can search for books from an existing library, catalog books into custom shelves, and write & discuss reviews.</p>
                                     <p><a href="https://goodgames2021.herokuapp.com/">Check out GoodGames!</a></p>
-
+                                    <h3>Features:</h3>
+                                    <ul>
+                                        <li>Express serves up Pug templates to render data from the PostgreSQL database.</li>
+                                        <li>RESTful endpoints using only GET and POST methods implemented in Express use unique URI's to accomodate HTML form submissions, content creation, and content updates and deletion.</li>
+                                    </ul>
                                 </header>
                             </div>
                         </section>
