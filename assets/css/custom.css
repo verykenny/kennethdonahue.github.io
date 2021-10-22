@@ -94,7 +94,7 @@
     box-shadow: -5px 5px 2px rgba(0, 0, 0, 0.534);
     margin-bottom: 40px;
     border-radius: 3px;
-    background: #7299C6;
+    background: #222629;
 }
 
 .modal-item header {
@@ -110,6 +110,9 @@
     font-size: 1.2em;
     color: white;
     text-align: left;
+}
+.modal-item header h2 {
+    color: white;
 }
 
 .modal-item header p {
