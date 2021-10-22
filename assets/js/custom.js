@@ -17,3 +17,24 @@ for (let skill of skills) {
         })
     })
 }
+
+
+const sites = document.querySelectorAll('#portfolio .item .image');
+
+for (let site of sites) {
+
+    site.addEventListener('click', (e) => {
+        siteModal = site.parentElement.nextElementSibling;
+        siteModal.style.visibility = 'visible';
+        siteModal.style.opacity = 1;
+
+        siteModal.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (e.target === siteModal) {
+                siteModal.style.opacity = 0;
+                setTimeout(() => siteModal.style.visibility = 'hidden', 300)
+
+            }
+        })
+    })
+}

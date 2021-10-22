@@ -122,9 +122,11 @@
 
                 <div class="row">
                     <div class="col-6 col-12-mobile">
+
+
                         <article class="item">
-                            <a href="https://rboard2021.herokuapp.com" class="image fit"><img src="images/rboard.png"
-                                    alt="" /></a>
+                            <div class="image fit"><img src="images/rboard.png"
+                                    alt="" /></div>
                             <header>
                                 <h3>rBoard</h3>
                                 <div class="project-description">
@@ -136,10 +138,26 @@
                                 </div>
                             </header>
                         </article>
+                        <section class="skill-modal">
+                            <div class="modal-data modal-item">
+                                <header>
+                                    <h2>rBoard</h2>
+                                    <p>Combine your refrigerator space and whiteboard into one application--making it easy to manage chores, reminders, and other oddities in your household or for school.</p>
+                                    <h3>Features:</h3>
+                                    <ul>
+                                        <li>Single-page application with a simple splash page for user authorization.</li>
+                                        <li>Smooth, draggable UI components made in React that monitor and track MouseEvents, manipulate absolute positioning in Styled Components, and store updated position data in a PostgreSQL database.</li>
+                                        <li>Toggle-able editing system using Styled Components that mimic target elements. Users can update information without being taken to other pages or forms.</li>
+                                    </ul>
+                                </header>
+                            </div>
+                        </section>
+
+
 
                         <article class="item">
-                            <a href="https://pseudogram2021.herokuapp.com/" class="image fit"><img
-                                    src="images/pseudogram.png" alt="" /></a>
+                            <div href="https://pseudogram2021.herokuapp.com/" class="image fit"><img
+                                    src="images/pseudogram.png" alt="" /></div>
                             <header>
                                 <h3>Pseudogram</h3>
                                 <div class="project-description">
@@ -151,11 +169,26 @@
                                 </div>
                             </header>
                         </article>
+                        <section class="skill-modal">
+                            <div class="modal-data modal-item">
+                                <header>
+                                    <h2>Pseudogram</h2>
+                                    <p>Pseudogram allows users to post images and view/comment on the images posted by their friends. This project is inspired by Instagram, a website where individuals can upload their images, like and leave comments on other's images.</p>
+                                    <ul>
+                                        <li>Streamlined Redux store state by nesting user image information under the user with eager loading, enabling simpler manipulation of the user image likes and comments during CRUD related actions.</li>
+                                        <li>Used AWS S3 to build a reusable React image upload modal using a custom context provider allowing for easy implementation on any authorized front-end route while also reducing server load.</li>
+                                        <li>Constructed a reusable component to toggle like/unlike status requiring only one prop to dispatch the correct Redux thunk action creator depending on the current Redux store state, facilitating easy implementation into other components on any front-end route or modal tied to an image.</li>
+                                    </ul>
+                                </header>
+                            </div>
+                        </section>
                     </div>
+
+
                     <div class="col-6 col-12-mobile">
                         <article class="item">
-                            <a href="https://gravy-n-curds.herokuapp.com/" class="image fit"><img
-                                    src="images/gravyncurds.png" alt="" /></a>
+                            <div href="https://gravy-n-curds.herokuapp.com/" class="image fit"><img
+                                    src="images/gravyncurds.png" alt="" /></div>
                             <header>
                                 <h3>gravyNcurds</h3>
                                 <div class="project-description">
@@ -167,9 +200,25 @@
                                 </div>
                             </header>
                         </article>
+                        <section class="skill-modal">
+                            <div class="modal-data modal-item">
+                                <header>
+                                    <h2>gravyNcurds</h2>
+                                    <p>Users can view poutine dish options and see what others thought about them. Users can also check-in and rate poutine dishes so they can remember what they have tried and what they thought of it. This project is inspired by Untappd, a website where individuals can search for beer, check-in and leave reviews on beer they try and unlock achievements by trying new and different beer styles.
+                                    </p>
+                                    <ul>
+                                        <li>Expanded user control by tying a user’s check-ins to their account, allowing users to easily retrieve, edit, delete check-ins as needed.</li>
+                                        <li>Restructured the login and signup forms in React with dedicated space for validation error messages using the Express Validator library, allowing users to instantly identify the field with the error and avoid resizing elements as a result of validation errors.</li>
+                                        <li>Created a React component to dynamically update the timestamp display on each check-in with the most pertinent time unit to display, calculated based on the total time since the check-in was created.</li>
+                                    </ul>
+                                </header>
+                            </div>
+                        </section>
+
+
                         <article class="item">
-                            <a href="https://goodgames2021.herokuapp.com/" class="image fit"><img
-                                    src="images/goodgames.png" alt="" /></a>
+                            <div href="https://goodgames2021.herokuapp.com/" class="image fit"><img
+                                    src="images/goodgames.png" alt="" /></div>
                             <header>
                                 <h3>GoodGames</h3>
                                 <div class="project-description">
@@ -181,6 +230,14 @@
                                 </div>
                             </header>
                         </article>
+                        <section class="skill-modal">
+                            <div class="modal-data modal-item">
+                                <header>
+                                    <h2>GoodGames</h2>
+                                    <p>Users can view a library of video games and organize a custom selection of games into shelves. Users can also view reviews of each game as well as publish their own. This project is inspired by Goodreads, a website where individuals can search for books from an existing library, catalog books into custom shelves, and write & discuss reviews.</p>
+                                </header>
+                            </div>
+                        </section>
 
                     </div>
                 </div>
@@ -207,7 +264,8 @@
                         <section class="skill-modal">
                             <div class="modal-data modal-item">
                                 <header>
-                                    <h3>Experience implementing: </h3>
+                                    <h2>JavaScript</h2>
+                                    <h3>Projects: </h3>
                                     <ul>
                                         <li><a target="blank" href="https://github.com/verykenny/r-board">rBoard</a></li>
                                         <li><a target="blank" href="https://github.com/verykenny/gravy-n-curds">gravyNcurds</a></li>
@@ -228,7 +286,8 @@
                         <section class="skill-modal">
                             <div class="modal-data modal-item">
                                 <header>
-                                    <h3>Experience implementing: </h3>
+                                    <h2>React</h2>
+                                    <h3>Projects: </h3>
                                     <ul>
                                         <li><a target="blank" href="https://github.com/verykenny/r-board">rBoard</a></li>
                                         <li><a target="blank" href="https://github.com/verykenny/gravy-n-curds">gravyNcurds</a></li>
@@ -248,7 +307,8 @@
                         <section class="skill-modal">
                             <div class="modal-data modal-item">
                                 <header>
-                                    <h3>Experience implementing: </h3>
+                                    <h2>Python</h2>
+                                    <h3>Projects: </h3>
                                     <ul>
                                         <li><a target="blank" href="https://github.com/verykenny/r-board">rBoard</a></li>
                                         <li><a target="blank" href="https://github.com/verykenny/pseudogram">Pseudogram</a></li>
@@ -267,7 +327,8 @@
                             <section class="skill-modal">
                                 <div class="modal-data modal-item">
                                     <header>
-                                        <h3>Experience implementing: </h3>
+                                        <h2>Redux</h2>
+                                        <h3>Projects: </h3>
                                         <ul>
                                             <li><a target="blank" href="https://github.com/verykenny/gravy-n-curds">gravyNcurds</a></li>
                                             <li><a target="blank" href="https://github.com/verykenny/pseudogram">Pseudogram</a></li>
@@ -286,7 +347,8 @@
                         <section class="skill-modal">
                             <div class="modal-data modal-item">
                                 <header>
-                                    <h3>Experience implementing: </h3>
+                                    <h2>Express</h2>
+                                    <h3>Projects: </h3>
                                     <ul>
                                         <li><a target="blank" href="https://github.com/verykenny/pseudogram">Pseudogram</a></li>
                                         <li><a target="blank" href="https://github.com/aryan151/GoodGames">GoodGames</a></li>
@@ -309,10 +371,15 @@
                         <section class="skill-modal">
                             <div class="modal-data modal-item">
                                 <header>
-                                    <h3>Experience implementing: </h3>
+                                    <h2>Flask</h2>
+                                    <h3>Projects: </h3>
                                     <ul>
                                         <li><a target="blank" href="https://github.com/verykenny/r-board">rBoard</a></li>
                                         <li><a target="blank" href="https://github.com/verykenny/gravy-n-curds">gravyNcurds</a></li>
+                                    </ul>
+                                    <h3>Additional experience using:</h3>
+                                    <ul>
+                                        <li>flask-wtf and wtforms libraries to create secure forms with csrf protection and form input validation before submitting new data to the database.</li>
                                     </ul>
                                 </header>
                             </div>
@@ -328,9 +395,11 @@
                         <section class="skill-modal">
                             <div class="modal-data modal-item">
                                 <header>
-                                    <h3>Experience implementing: </h3>
+                                    <h2>Docker</h2>
+                                    <h3>Projects: </h3>
                                     <ul>
                                         <li><a target="blank" href="https://github.com/verykenny/r-board">rBoard</a></li>
+                                        <li><a target="blank" href="https://github.com/verykenny/pseudogram">Pseudogram</a></li>
                                     </ul>
                                 </header>
                             </div>
@@ -340,13 +409,14 @@
                         <article class="item">
                             <header>
                                 <img src="images/nodejs.png" alt="nodejs">
-                                <h3>Nodejs</h3>
+                                <h3>Node.js</h3>
                             </header>
                         </article>
                         <section class="skill-modal">
                             <div class="modal-data modal-item">
                                 <header>
-                                    <h3>Experience implementing: </h3>
+                                    <h2>Node.js</h2>
+                                    <h3>Projects: </h3>
                                     <ul>
                                         <li><a target="blank" href="https://github.com/verykenny/r-board">rBoard</a></li>
                                         <li><a target="blank" href="https://github.com/verykenny/gravy-n-curds">gravyNcurds</a></li>
@@ -367,11 +437,17 @@
                         <section class="skill-modal">
                             <div class="modal-data modal-item">
                                 <header>
-                                    <h3>Experience implementing: </h3>
+                                    <h2>Sequelize</h2>
+                                    <h3>Projects: </h3>
                                     <ul>
                                         <li><a target="blank" href="https://github.com/verykenny/pseudogram">Pseudogram</a></li>
                                         <li><a target="blank" href="https://github.com/aryan151/GoodGames">GoodGames</a></li>
                                     </ul>
+                                    <h3>Additional experience using:</h3>
+                                    <ul>
+                                        <li>Sequelize-CLI to create, migrate, upgrade, and seed databases.</li>
+                                    </ul>
+
                                 </header>
                             </div>
                         </section>
@@ -386,7 +462,8 @@
                         <section class="skill-modal">
                             <div class="modal-data modal-item">
                                 <header>
-                                    <h3>Experience implementing: </h3>
+                                    <h2>PostgreSQL</h2>
+                                    <h3>Projects: </h3>
                                     <ul>
                                         <li><a target="blank" href="https://github.com/verykenny/r-board">rBoard</a></li>
                                         <li><a target="blank" href="https://github.com/verykenny/gravy-n-curds">gravyNcurds</a></li>
@@ -407,7 +484,8 @@
                         <section class="skill-modal">
                             <div class="modal-data modal-item">
                                 <header>
-                                    <h3>Experience implementing: </h3>
+                                    <h2>HTML</h2>
+                                    <h3>Projects: </h3>
                                     <ul>
                                         <li><a target="blank" href="https://github.com/verykenny/r-board">rBoard</a></li>
                                         <li><a target="blank" href="https://github.com/verykenny/gravy-n-curds">gravyNcurds</a></li>
@@ -432,7 +510,8 @@
                         <section class="skill-modal">
                             <div class="modal-data modal-item">
                                 <header>
-                                    <h3>Experience implementing: </h3>
+                                    <h2>CSS</h2>
+                                    <h3>Projects: </h3>
                                     <ul>
                                         <li><a target="blank" href="https://github.com/verykenny/r-board">rBoard</a></li>
                                         <li><a target="blank" href="https://github.com/verykenny/gravy-n-curds">gravyNcurds</a></li>
@@ -459,7 +538,8 @@
                         <section class="skill-modal">
                             <div class="modal-data modal-item">
                                 <header>
-                                    <h3>Experience implementing: </h3>
+                                    <h2>Heroku</h2>
+                                    <h3>Projects: </h3>
                                     <ul>
                                         <li><a target="blank" href="https://github.com/verykenny/r-board">rBoard</a></li>
                                         <li><a target="blank" href="https://github.com/verykenny/gravy-n-curds">gravyNcurds</a></li>
@@ -536,7 +616,7 @@
                 <header>
                     <h2>Contact</h2>
                 </header>
-                <p>I'd love to hear form you - get in touch anytime!</p>
+                <p>I'd love to hear from you - here's how to get in touch!</p>
                 <div class="row">
                     <div class="col-6 col-12-mobile">
                         <article class="item">
