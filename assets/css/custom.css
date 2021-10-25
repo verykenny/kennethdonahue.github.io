@@ -108,11 +108,11 @@
 
 .modal-item header h3 {
     font-size: 1.2em;
-    color: white;
+    color: #7299c6;
     text-align: left;
 }
 .modal-item header h2 {
-    color: white;
+    color: #7299c6;
 }
 
 .modal-item header p {
@@ -124,8 +124,12 @@
     text-align: left;
 }
 
+.modal-item a {
+    color: #FFBC42;
+}
+
 .modal-item a:hover {
-    color: #ffbc42;
+    color: #ffd280;
 }
 
 .come-in {
@@ -153,5 +157,6 @@ footer {
 
 footer .button {
     margin: 10px;
-    padding: 0.4em 2.3em 0.4em 2.3em
+    padding: 0.4em 2.3em 0.4em 2.3em;
+    background-color: #7299c6;
 }
